@@ -115,6 +115,10 @@
 		function keydown(x)
 		{
 			$(x).width($(x).val().length+40);
+			if( event.which == 13 )
+			{
+				$(x).remove();
+			}
 		}
 	</script>
 </html>
