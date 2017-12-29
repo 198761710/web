@@ -50,7 +50,7 @@
 						<th>ʵʱֵ</th>
 					</thead>
 					<tbody>
-						<tr v-for="r in datarows">
+						<tr v-for="r in datarows" v-if="r.name">
 							<td name="name" v-text="r.name" onclick="gettd(this)">
 							</td>
 							<td name="init" v-text="r.init" onclick="gettd(this)">

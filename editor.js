@@ -26,5 +26,5 @@ axios.get("example.bas")
 	});
 function submitscrtip()
 {
-	alert(editor.getValue());
+	alert("sure to submit!");
 }
